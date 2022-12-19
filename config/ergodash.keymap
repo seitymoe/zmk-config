@@ -32,11 +32,11 @@
  * .----------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&kp  GRAVE    &kp  N1       &kp  N2       &kp  N3       &kp  N4       &kp  N5       &kp  LBKT              &kp  RBKT     &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  PSCRN
+&kp  GRAVE    &kp  N1       &kp  N2       &kp  N3       &kp  N4       &kp  N5       &kp  LBKT              &kp  RBKT     &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  BSPC
 &kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T        &kp  MINUS             &kp  EQUAL    &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSLH
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G        &kp  DEL               &kp  BSPC     &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
-&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  END               &kp  UP     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  RSHFT
-&kp  LCTRL    &mo  RAISE    &kp  LANG_ZENKAKUHANKAKU    &kp  LMETA    &kp  LALT     &kp  SPACE    &kp  ENTER             &kp  LEFT    &kp  DOWN      &kp  RIGHT     &kp C_PP      &kp  C_VOL_UP    &kp  C_VOL_DN      &kp  RCTRL
+&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  END               &kp  UP     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  ENTER
+&kp  LCTRL    &mo  LOWER    &mo  RAISE    &kp  LMETA    &kp  LALT     &kp  SPACE    &kp  ENTER             &kp  LEFT    &kp  DOWN      &kp  RIGHT     &kp C_PP      &kp  C_VOL_DN    &kp  C_VOL_UP      &kp  RCTRL
                         >;
                 };
                 lower_layer {
